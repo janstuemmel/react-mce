@@ -1,12 +1,14 @@
 {
   "name": "react-mce",
-  "version": "0.5.1",
+  "version": "0.6.0",
   "description": "React TinyMCE component",
   "main": "lib/main.js",
   "scripts": {
     "test": "karma start --single-run",
     "test-watch": "karma start",
-    "release": "gulp npm-release && npm version $1"
+    "release:patch": "npm version patch && gulp npm-release && npm publish build",
+    "release:minor": "npm version minor && gulp npm-release && npm publish build",
+    "release:major": "npm version major && gulp npm-release && npm publish build"
   },
   "repository": {
     "type": "git",
