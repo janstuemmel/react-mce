@@ -1,5 +1,8 @@
 # react-mce
 
+[![Build Status](https://travis-ci.org/janstuemmel/react-mce.svg?branch=master)](https://travis-ci.org/janstuemmel/react-mce)
+[![npm version](https://badge.fury.io/js/react-mce.svg)](https://badge.fury.io/js/react-mce)
+
 React TinyMCE component
 
 ## Installing

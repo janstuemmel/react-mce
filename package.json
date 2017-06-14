@@ -52,7 +52,6 @@
     "karma-spec-reporter": "0.0.31",
     "mocha": "^3.4.2",
     "mocha-test-container-support": "^0.2.0",
-    "rackt-cli": "^0.5.3",
     "react": "^15.6.0",
     "react-dom": "^15.6.0",
     "sinon": "^2.3.4",
